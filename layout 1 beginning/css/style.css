@@ -1,0 +1,131 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+/* 导航栏 */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #ffcc66;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #ffe4a1;
+    border-radius: 5px;
+}
+
+/* 顶部背景图容器 */
+.hero {
+    position: relative;
+    padding: 20px;
+}
+
+/* 背景图 */
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 新闻块 */
+.news {
+    padding: 30px;
+    background-color: #fff5e6;
+    margin: 20px;
+    border-left: 5px solid #ffcc66;
+}
+
+/* 猫咪照片区域 */
+.cat-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #fff;
+    gap: 20px;
+}
+
+.cat-gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cat-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* OUR Mission */
+.mission {
+    padding: 30px;
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+.mission h3 {
+    color: #2e7d32;
+}
+
+/* 页脚社交媒体 */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+}
+
+/* 可领养猫咪展示 */
+.cat-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: #fff;
+    gap: 20px;
+}
+
+/* 页脚 */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+}
+
+.footer a {
+    color: #ffcc66;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
